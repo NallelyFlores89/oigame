@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>oiga.me - Únete</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" charset="utf-8"/>
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+		
+		<link rel="stylesheet" href="../themes/oiga.me.css" />
+		<link rel="stylesheet" href="css/unete.css" /> <!--Hoja de estilos para el formulario-->
+
+		<script type="text/javascript" src="js/bloquea_boton.js"></script> <!--activa/desactiva botón submit--> 
+		<script type="text/javascript" src="js/jquery.validate.js" ></script> <!--scripts para la validación del formulario-->
+		<script type="text/javascript" src="js/valida_pass.js"></script> 
+
+		<script>
+			$(document).ready(function(){
+				$('#boton').parent().css('font-size', '20px');
+			});
+		</script>
+	
+	</head>
+	
+	<body>
+		<div data-role="page" id="crea_cuenta" name="crea_cuenta" data-theme="a" style="background:#FFF"> 
+			
+			<div data-role="header" data-theme="a">
+				<div id="logo">
+					<center><a href="../index/index.html" rel="external"><img src="../img-comunes/header.png" ></a></center>
+				</div>
+				<h1>Únete</h1>
+
+			</div> <!--header-->
+			 
+			<div data-role="content" id="contenido" name="contenido">
+				<form id="Formulario" name="Formulario" method="post" action="#" value="#"> <!--Formulario-->
+					<div data-role="fieldcontain" id="form-registro">
+						<p>Si quieres proponer campañas o recibir noticias de oiga.me, crea una cuenta de usuario.</p>
+						<div id="borde-form-creaCuenta">
+							<p><label for="correo" id="label-correo">Correo electrónico</label>
+							<input type="text" id="correo" name="correo" class="required email" placeholder="correo@algo.com"/></p>				
+							
+							<p><label for="pass1" id="label-pass1">Contraseña</label>
+							<input type="password"  id="pass1" name="pass1" placeholder="¡Recuerda que debe ser segura!"/></p>
+							
+							<p><label for="pass2" id="label-pass2">Confirma contraseña</label>
+							<input type="password"  id="pass2" name="pass2" placeholder="Confirma Contraseña"></p>
+							
+							<p><label id="label-slider">Deseas recibir noticias de oiga.me</label>	
+							
+							<select name="slide" id="slide" data-role="slider">             
+								<option value="off">Sí</option>                       
+								<option value="on">No</option>                   
+							</select></p>
+						
+							<input type="submit" name="boton" id="boton" value="Regístrate"  data-role="button" disabled="disable"/>
+						</div> <!--borde-form-creCuenta-->
+					</div> <!--Fieldcontain-->
+				</form><!--Formulario-->
+			</div> <!--content-->
+			
+			<div data-role="footer" class="footer" data-theme="b"> 
+				<h2>Sitio creado y mantenido por:</h2>
+				<div data-role="navbar" >
+					<ul>
+						<li><a href="http://alabs.es/" rel="external"><img src="../img-comunes/logo-alabs.png"></a></li>
+					</ul>
+				</div>
+			</div> <!--footer-->
+		</div> <!--page-->
+	</body>
+</html>

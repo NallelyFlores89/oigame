@@ -1,0 +1,29 @@
+h1{
+	color:#fff;
+}
+
+#h2blanco{
+	color: #fff;
+}
+label,p{
+	color:#000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+h2{
+	color:#000;
+	font-size:23px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+p{
+  font-size:19px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  text-align:justify;
+}
+
+.tittle{
+	font-size:20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+

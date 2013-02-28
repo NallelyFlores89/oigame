@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		
+		<title>oiga.me - Reenviar Instrucciones</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+		<script src="js/bloquea-boton.js"></script>
+	
+		<link rel="stylesheet" href="../themes/oiga.me.css" />
+		<link rel="stylesheet" href="css/css.css" /> <!--Css para centrar formulario-->
+
+		<script>
+			$(document).ready(function(){
+				$('#boton').parent().css('font-size', '20px');
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<div data-role ="page" id="instrucciones" name="instrucciones" data-theme="a" style="background:#FFF">
+		
+			<div data-role="header" data-theme="a">
+				<div id="logo">
+					<center><a href="../index/index.html" rel="external"><img src="../img-comunes/header.png" ></a></center>
+				</div>
+				<h1>Reenviar</h1>
+				<h1>Instrucciones de Confirmación</h1>
+
+			</div> <!--header-->
+			<br>
+			<div data-role="content" id="contenidoIns" name="contenidoIns" style="background:#FFF">
+				
+				<form id="Formulario_Ins" name="Formulario_Ins" method="post" action="#" value="#"> <!--Formulario-->
+					<div class="borde-form">
+						<p><label for="correoIns" id="label-ins" name="label-ins">Correo electrónico</label>
+						<input type="email" id="correoIns" name="correoIns" class="required email" placeholder="correo@algo.com"/></p>
+						
+						<input type="submit" id="boton" name="boton"  value="Reenviar" disabled="disable">
+					</div>
+				</form> <!--Formulario-->
+				
+			</div> <!--content-->
+			<br>
+			<div data-role="footer" class="footer" data-theme="b"> 
+				<h2>Sitio creado y mantenido por:</h2>
+				<div data-role="navbar" >
+					<ul>
+						<li><a href="http://alabs.es/" rel="external"><img src="../img-comunes/logo-alabs.png"></a></li>
+					</ul>
+				</div>
+			</div> <!--footer-->
+		</div><!--Page-->
+	</body>
+</html>

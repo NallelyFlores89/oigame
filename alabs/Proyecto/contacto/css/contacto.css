@@ -1,0 +1,117 @@
+h1{
+	color:#FFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color:#000;
+}
+h2{
+	color: #FFF;
+}
+
+#texto{
+	color:#000;
+
+}
+#label-nombre-contacto, #label-correo-contacto, #label-asunto-contacto,#label-mensaje,#label-slider-contacto{
+	font-weight:bold;
+}
+#label-nombre-contacto, #label-correo-contacto, #label-asunto-contacto, 
+#nombre-contacto, #correo-contacto, #asunto-contacto, #mensaje, 
+#slider-contacto, #label-mensaje, #label-slider-contacto{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	width:90%;
+	margin-left:2%;
+}
+
+#borde-form-contacto{
+	position:relative;
+	border-radius: .7em;
+	background:#f5f5f5;
+	padding-bottom:3%;
+	padding-top:2%;
+	-moz-box-shadow: 3px 3px 5px #323232;
+	-webkit-box-shadow: 3px 3px 5px #323232;
+	box-shadow: 3px 3px 5px #323232;
+}
+
+#nombre-contacto::-webkit-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+#nombre-contacto:-moz-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+#nombre-contacto:-ms-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+
+#correo-contacto::-webkit-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+#correo-contacto:-moz-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+#correo-contacto:-ms-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+
+#asunto-contacto::-webkit-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+#asunto-contacto:-moz-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+#asunto-contacto:-ms-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+
+#mensaje::-webkit-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+#mensaje:-moz-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+#mensaje:-ms-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+}
+.pequeño{
+	font-size:12px;
+	color:#c31d1d;
+}

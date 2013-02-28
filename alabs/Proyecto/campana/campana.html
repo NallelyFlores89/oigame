@@ -1,0 +1,171 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+        <title>oiga.me - Campaña</title> 
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1"/>
+
+        <meta charset="UTF-8"/>
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+		
+		<link rel="stylesheet" href="css/camp.css">
+        <link href='css/barra-progreso.css' rel='stylesheet' type='text/css'>
+		
+		<script src="js/botones.js"></script>
+     	<link rel="stylesheet" href="../themes/oiga.me.css" />
+     	 
+		<link rel="stylesheet" href="css/responsiveslides.css" /> <!--css de la galería-->
+		<link rel="stylesheet" href="css/themes.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+
+  <script>
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "centered-btns"
+      });
+
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "transparent-btns"
+      });
+
+    });
+  </script>
+	</head>
+
+    <body>
+		<div data-role="page" data-theme="a" id="Descripcion"> 
+            <div data-role="header">
+				<div id="logo">
+					<center><a href="../index/index.html" rel="external"><img src="../img-comunes/header.png" ></a></center>
+				</div>
+				<h1>Campaña</h1>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#"><img src="../img-comunes/facebook30.png"></a></li>
+						<li><a href="#"><img src="../img-comunes/twitter30.png"></a></li>
+						<li><a href="#"><img src="../img-comunes/google30.png"></a></li>
+					</ul>
+				</div>
+			</div> <!--header-->
+	
+			<div  data-role="content" style="background:#FFF" >
+				<div  id="tituloCamp" >
+					<h1  id="titulo">Pide el cese de las amenazas y coacciones a la abogada Nagla Mohamed</h1>
+					<p>Creada hace 13 días | Nos quedan -2 días</p>	
+				</div>
+				
+				<div class="stage">
+					<h3>Participantes</h3>
+					<div class="progressbar progressbar-red"> <!--Barra de progreso-->
+						<div class="progressbar-inner"></div>
+					</div>
+					<p>Se han unido 1 personas, nos faltan: 9 personas</p>
+				</div> <!--stage-->
+				
+			  <div id="wrapper"> <!--galería-->
+				  <ul class="rslides" id="slider2"> <!--se recomienda que las imágenes sean del mismo tamaño-->
+						<li><img src="img/1.jpg" alt="" /></li>
+						<li><img src="img/2.jpg" alt="" /></li>
+						<li><img src="img/3.jpg" alt="" /></li>
+				  </ul> <!--termina galería-->
+
+				  <div id="boton-unirse">
+						<a href="unirse-camp-form2.html" rel="external" data-role="button" data-theme="b">Unirse</a>
+				  </div><br/>
+				  
+				  <div data-role="collapsible-set" name="acordion" id="acordion" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right">
+					<div data-role="collapsible" data-collapsed="true" >
+						<h3><label class="tittle">Descripción</label></h3>
+						<div class="TextoCamp">
+							<p>Pide a las autoridades de la República de Sudán que cesen de hostigar a la abogada y defensora de derechos humanos Nagla Mohamed.
+							 Esta abogada ha sido acosada en los últimos meses por los agentes del NISS Sudanés, quienes le han amenazado con difamarle, imputarle falsos 
+							 cargos penales por sus actividades políticas y ha sido objeto de constantes llamamientos a dependencias del NISS donde ha sido obligada a permanecer 
+							 durante horas, sin un motivo específico, en condiciones inhumanas.</p>
+							 
+							 <p>La abogada y defensora de derechos humanos, Nagla Mohamed, sudanesa, ha sido reiteradamente amenazada por las autoridades policiales sudanesas con
+							 ser detenida debido a sus actividades en defensa de los derechos de los sudaneses. En los días que transcurrieron entre el 21 y el 25 de abril, Nagla Mohamed
+							 fue llamada diariamente por agentes de la autoridad a presentarse ante ellos y retenida una vez allí durante largas horas en celdas sin condiciones mínimas de 
+							 salubridad e higiene. Durante esas retenciones indefinidas fue sometida a abusos verbales, amenazas con difamación e imputación de falsos cargos, así como a extensos 
+							 interrogatorios sobre su vida privada y su relación con partidos políticos nacionales. Tras cuatro días bajo esta presión constante Nagla Mohamed cayó en una crisis nerviosa, 
+							 por lo que tuvo que ser hospitalizada. Me extenderé más, pero por ahora es una prueba..</p>
+						</div><!--TextoCamp-->
+					</div>
+
+					<div data-role="collapsible" data-collapsed="true">
+						<h3><label class="tittle">Mensaje</label></h3>
+						<div class="TextoCamp">
+							<p> Tu mensaje se enviará a las siguientes personas</p>
+							<h2>Destinatarios</h2>
+							<div id="lista-destinatarios">
+								<ul>
+									<li>persona 1 </li>
+									<li>persona 2 </li>
+									<li>persona 3 </li>
+									<li>persona 4 </li>
+									<li>persona 5 </li>
+								</ul>
+							</div>
+							<hr>
+							<h2>Mensaje</h2>
+							<p>
+								Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje
+								Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje
+								Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje
+								Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje
+								Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje
+								Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje
+								Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje Mensaje
+							</p>
+						</div><!--TextoCamp-->
+					</div>
+
+					<div data-role="collapsible" data-collapsed="true">
+						<h3><label class="tittle">Estadística</label></h3>
+						<div class="TextoCamp">
+					
+						</div><!--TextoCamp-->
+				
+						<div id="grafica">
+							<img src="img/grafica.png">
+						</div>
+					</div>
+					
+					<div data-role="collapsible" data-collapsed="true">
+						<h3><label class="tittle">Discusión</label></h3>
+						<div class="TextoCamp">
+					
+						</div><!--TextoCamp-->
+					</div>
+				</div><!--collapsible-->
+			  </div> <!--wrapper-->
+		  
+			</div> <!--content-->
+			
+			<div data-role="footer" class="footer" data-theme="b"> 
+				<h2>Sitio creado y mantenido por:</h2>
+				<div data-role="navbar" >
+					<ul>
+						<li><a href="http://alabs.es/" rel="external"><img src="../img-comunes/logo-alabs.png"></a></li>
+					</ul>
+				</div>
+			</div> <!--footer-->
+        </div> <!--page-->
+    </body>
+</html>
+

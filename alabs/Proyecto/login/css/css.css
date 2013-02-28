@@ -1,0 +1,89 @@
+label, p{
+	color:#000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-weight:bold;
+}
+
+a {
+	text-decoration:none;
+}
+
+#parrafo{
+	margin-bottom:5%;
+}
+
+#opcionesPass, #opcionesIns{
+	margin-top:3%;
+    display:block;
+	position:relative;
+}
+
+#correoPass, #correoIns{
+	background:#FFFFFF;
+	width:90%;
+	margin-left:2%;
+}
+
+#label-ins, #label-pass{
+	font-size:19px;
+	width:90%;
+	margin-left:2%;
+	font-weight:bold;
+}
+
+#correoIns::-webkit-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+
+}
+#correoIns:-moz-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+
+}
+#correoIns:-ms-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+
+}
+#correoPass::-webkit-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+
+}
+
+#correoPass:-moz-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+
+}
+#correoPass:-ms-input-placeholder {
+  color: #6E6E6E;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-style:italic;
+  font-size:18px;
+
+}
+
+.borde-form{
+	position:relative;
+	border-radius: .7em;
+	background:#f5f5f5;
+	padding-bottom:3%;
+	padding-top:2%;
+	-moz-box-shadow: 3px 3px 5px #323232;
+	-webkit-box-shadow: 3px 3px 5px #323232;
+	box-shadow: 3px 3px 5px #323232;
+
+}
+

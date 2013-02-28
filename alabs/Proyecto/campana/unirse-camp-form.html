@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>oiga.me - Unirme a Campaña</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	
+		<script src="js/bloquea_boton.js"></script>
+		<script src="js/unirse.js"></script>
+		<script src="js/jquery.alerts.js"></script>
+
+		<link rel="stylesheet" href="css/jquery.alerts.css" />
+		<link rel="stylesheet" href="../themes/oiga.me.css" />
+		<link rel="stylesheet" href="css/camp.css" />
+	</head>
+
+	<body>
+		<div data-role ="page" id="UnirseCamp" name="UnirseCamp" style="background:#FFF">
+		
+			<div data-role="header">
+				<div id="logo">
+					<center><a href="../index/index.html" rel="external"><img src="../img-comunes/header.png" ></a></center>
+				</div>
+				<h1>Unirme a</h1>
+				<h1>Campaña</h1>
+			</div> <!--header-->
+			
+			<div data-role="content" id="contenidoUnirse" name="contenidoUnirse" style="background:#FFF">
+				
+				<form id="FormularioUnirse" name="FormularioUnirse" method="post" action="#" value="#"> <!--Formulario-->
+					<div class="borde-form-unirse">
+						<p><label for="nombreUnirse" id="nombreLabel" name="nombreLabel">Nombre y Apellidos</label>
+						<input type="text" id="nombreUnirse" name="nombreUnirse" placeholder="Fulanito Díaz"/></p>
+
+						<p><label for="correoUnirse" id="labelCorreoUnirse" name="labelCorreoUnirse">Correo electrónico</label>
+						<input type="email" id="correoUnirse" name="correoUnirse" class="required email" placeholder="correo@algo.com"/></p>
+						
+						<input id="botonUnirse" class="botonUnirse" type="Submit" value="¡Úneme!" disabled="false" />
+					</div>
+				</form> <!--Formulario-->
+			
+			</div> <!--content-->
+			
+			<div data-role="footer" class="footer" data-theme="b"> 
+				<h2>Sitio creado y mantenido por:</h2>
+				<div data-role="navbar" >
+					<ul>
+						<li><a href="http://alabs.es/" rel="external"><img src="../img-comunes/logo-alabs.png"></a></li>
+					</ul>
+				</div>
+			</div> <!--footer-->
+		</div><!--Page-->
+	</body>
+</html>

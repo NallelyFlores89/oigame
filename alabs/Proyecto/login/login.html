@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>oiga.me-Iniciar sesión</title>
+			<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+			<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+			<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+
+			<link rel="stylesheet" href="../themes/oiga.me.min.css" />
+			<link rel="stylesheet" href="css/login.css">
+
+			<script type="text/javascript" src="js/bloquea-boton.js"></script> <!--activa/desactiva botón submit--> 
+
+		
+			<script>
+				$(document).ready(function(){
+					$('#acceder').parent().css('font-size', '20px');
+				});
+			</script>
+	</head>
+
+	<body>
+		<div data-role="page" id="logIn" data-theme="a" style="background:#FFF">
+			<div data-role="header">
+				<div id="logo">
+					<center><a href="../index/index.html" rel="external"><img src="../img-comunes/header.png" ></a></center>
+				</div>
+				<h1>Iniciar sesión</h1>
+			</div> <!--header-->
+		   
+			
+			<div data-role="content" style="background:#FFF">
+				<form id="Formulario" method="get" action="#">
+					<div id="borde-form-loguin">
+						<p data-theme="a">
+							<label for="Usr" id="label-Usr">Correo</label>
+							<input data-theme="b" type="email" id="Usr" name="Usr" class="required" placeholder="correo@algo.com"/>
+						</p>
+						<p>
+							<label for="pass" id="label-pass">Contraseña</label>
+							<input data-theme="b" type="password" id="pass" name="pass" placeholder="Ingresa contraseña" />
+						</p>			
+									
+						<p><input type="submit" name="acceder" id="acceder" data-role="button" value="Accede" disabled="disable"></p>
+					</div>	
+				</form> 
+			</div> <!--content-->
+
+			<div data-role="navbar">
+				<ul>
+					<li><a href="recupera_pass.html" rel="external">Olvidé mi contraseña</a></li>
+				</ul>
+				<ul>
+					<li><a href="instrucciones.html" rel="external">Reenvíame instrucciones</a></li>
+
+				</ul>
+			</div>	
+			<div data-role="footer" class="footer" data-theme="b"> 
+				<h2>Sitio creado y mantenido por:</h2>
+				<div data-role="navbar" >
+					<ul>
+						<li><a href="http://alabs.es/" rel="external"><img src="../img-comunes/logo-alabs.png"></a></li>
+					</ul>
+				</div>
+			</div> <!--footer-->
+		</div> <!--page-->
+	</body>
+</html>

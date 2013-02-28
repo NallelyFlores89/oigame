@@ -1,0 +1,77 @@
+#popup_container {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 18px;
+	text-align:center;
+	font-weight:bold;
+	width: 70%; /* Dialog will wrap after this width */
+	border: 1px solid #000;
+	border-radius: 20px;
+	-moz-box-shadow: 4px 4px 12px #000000;
+	-webkit-box-shadow: 4px 4px 12px #000000;
+	box-shadow: 4px 4px 12px #000000;
+	
+}
+
+#popup_title {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_container.botonUnirse {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color: #000;
+	background: #FFF;
+	border-color: #000;
+}
+			
+#popup_container.botonUnirse #popup_title {
+	color: #000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-weight: bold;
+	text-align: left;
+	background: #c31d1d;
+	border:solid 1px #000000;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright:20px;
+	-moz-border-radius-bottomleft:0px;
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-webkit-border-bottom-left-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	padding-left: 1em;
+}
+		
+#popup_container.botonUnirse #popup_content {
+	background: none;
+}
+			
+#popup_container.botonUnirse #popup_message {
+	padding-left: 0em;
+}
+			
+#popup_container.botonUnirse INPUT[type='button'] {
+	border: outset 2px #B40404;
+	color: #000;
+	background: #B40404;
+}

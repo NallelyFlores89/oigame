@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>oiga.me - Contacto</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" charset="utf-8"/>
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+		
+		<script src="js/bloquea-boton.js"></script>
+		
+		<link rel="stylesheet" href="../themes/oiga.me.css" />
+		<link rel="stylesheet" href="css/contacto.css" />
+
+		<script>
+			$(document).ready(function(){
+				$('#boton').parent().css('font-size', '20px');
+			});
+		</script>
+	
+	</head>
+	
+	<body>
+		<div data-role="page" id="contacto" name="contacto" data-theme="a" style="background:#FFF"> 
+			
+			<div data-role="header" data-theme="a">
+				<div id="logo">
+					<center><a href="../index/index.html" rel="external"><img src="../img-comunes/header.png" ></a></center>
+				</div>
+				<h1>Contacto</h1>
+
+			</div> <!--header-->
+			 
+			<div data-role="content" id="contenido" name="contenido">
+						
+				<form id="FormularioContacto" name="FormularioContacto" method="post" action="#" value="#"> <!--Formulario-->
+
+					<h2 id="texto">Contactar con oiga.me</h2>
+					<p>Por favor, rellena el formulario.</p>
+					<p class="pequeño">Todos los campos son obligatorios</p>
+					
+					<div data-role="fieldcontain" id="form-contacto" name="form-contacto">
+						<div id="borde-form-contacto">
+							<p><label for="nombre-contacto" id="label-nombre-contacto">Nombre</label>
+							<input type="text" id="nombre-contacto" name="nombre-contacto" placeholder="Nombre y apellido"/></p>				
+						
+							
+							<p><label for="correo-contacto" id="label-correo-contacto">Correo electrónico</label>
+							<input type="email" id="correo-contacto" name="correo-contacto" class="required email" placeholder="correo@algo.com"/></p>				
+						
+							
+							<p><label for="asunto-contacto" id="label-asunto-contacto">Asunto</label>
+							<input type="text" id="asunto-contacto" name="asunto-contacto" placeholder="El asunto del mensaje"/></p>				
+							
+							<p><label for="mensaje" id="label-mensaje">Mensaje</label>
+							<textarea cols="4" rows="20" name="mensaje" id="mensaje" placeholder="Mensaje..."></textarea></p>
+							
+							<p><label id="label-slider-contacto">Deseas recibir noticias de oiga.me</label>	
+								<select name="slider-contacto" id="slider-contacto" data-role="slider">             
+									<option value="off">Sí</option>                       
+									<option value="on">No</option>                   
+								</select>
+							</p>
+							<input type="submit" name="boton-contacto" id="boton-contacto" value="Envía mensaje" disabled="disable"/>
+						</div>
+					</div> <!--Fieldcontain-->
+					
+				</form><!--Formulario-->
+			</div> <!--content-->
+			
+			<div data-role="footer" class="footer" data-theme="b"> 
+				<h2>Sitio creado y mantenido por:</h2>
+				<div data-role="navbar" >
+					<!--<ul>
+						<li><a href="../politica_privacidad/politica.html" rel="external">Política de Privacidad</a></li>
+					</ul>-->
+					<ul>
+						<li><a href="http://alabs.es/" rel="external"><img src="../img-comunes/logo-alabs.png"></a></li>
+					</ul>
+				</div>
+			</div> <!--footer-->
+		</div> <!--page-->
+	</body>
+</html>
+
